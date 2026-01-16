@@ -1,0 +1,226 @@
+// Mock data for the travel website
+
+export const destinations = [
+  {
+    id: 1,
+    name: "Kathmandu",
+    location: "Nepal",
+    price: "7000",
+    duration: "7 Days",
+    image:
+      "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    country: "Maldives",
+    budget: "luxury",
+    description: "Paradise on Earth with crystal clear waters",
+  },
+  {
+    id: 2,
+    name: "Banaras",
+    location: "India",
+    price: "3,199",
+    duration: "10 Days",
+    image:
+      "https://plus.unsplash.com/premium_photo-1697729634472-bb82561ef296?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    country: "India",
+    budget: "luxury",
+    description: "Breathtaking mountain landscapes",
+  },
+  {
+    id: 3,
+    name: "Lucknow",
+    location: "India",
+    price: "1,899",
+    duration: "5 Days",
+    image:
+      "https://plus.unsplash.com/premium_photo-1697730430283-7e4456c78375?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    country: "India",
+    budget: "medium",
+    description: "The City of Love and Lights",
+  },
+  {
+    id: 4,
+    name: "Ayodhya",
+    location: "India",
+    price: "2,699",
+    duration: "8 Days",
+    image:
+      "https://plus.unsplash.com/premium_photo-1697730334768-6e65fa8fded0?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    country: "Uttar Pradesh,India",
+    budget: "medium",
+    description: "Modern meets traditional in Japan's capital",
+  },
+  {
+    id: 5,
+    name: "Goa",
+    location: "India",
+    price: "2,199",
+    duration: "6 Days",
+    image:
+      "https://images.unsplash.com/photo-1580741186862-c5d0bf2aff33?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    country: "India",
+    budget: "medium",
+    description: "Iconic white-washed buildings and sunsets",
+  },
+  {
+    id: 6,
+    name: "Kedarnath",
+    location: "India",
+    price: "2,899",
+    duration: "7 Days",
+    image:
+      "https://images.unsplash.com/photo-1612438214708-f428a707dd4e?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    country: "Uttarakhand, India",
+    budget: "luxury",
+    description: "Luxury and innovation in the desert",
+  },
+  {
+    id: 7,
+    name: "Kushinagar",
+    location: "India",
+    price: "1,599",
+    duration: "9 Days",
+    image:
+      "https://images.unsplash.com/photo-1691940175842-84a788886e7f?q=80&w=868&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    country: "Uttar Pradesh,India",
+    budget: "budget",
+    description: "Tropical paradise with rich culture",
+  },
+  {
+    id: 8,
+    name: "Manali",
+    location: "India",
+    price: "2,999",
+    duration: "7 Days",
+    image:
+      "https://images.unsplash.com/photo-1712388430474-ace0c16051e2?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    country: "Himachal Pradesh, India",
+    budget: "luxury",
+    description: "Land of fire, ice, and northern lights",
+  },
+];
+
+export const packages = [
+  {
+    id: 1,
+    title: "Toyota Innova",
+    destination: "7 Seater",
+    price: "18/KM",
+    duration: "7 Days / 6 Nights",
+    rating: 4.9,
+    reviews: 245,
+    image:
+      "https://images.unsplash.com/photo-1748215210939-ad8b6c8c086d?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    includes: ["Flight", "Hotel", "Meals", "Activities"],
+  },
+  {
+    id: 2,
+    title: "Maruti Suzuki Ertiga",
+    destination: "7 Seater",
+    price: "13/KM",
+    duration: "10 Days / 9 Nights",
+    rating: 4.8,
+    reviews: 189,
+    image:
+      "https://i.pinimg.com/736x/89/32/c0/8932c0e6bacc17f73c4d64aa6aa4ff5b.jpg",
+    includes: ["Flight", "Hotel", "Breakfast", "Ski Pass"],
+  },
+  {
+    id: 3,
+    title: "Mahindra Scorpio",
+    destination: "6 Seater",
+    price: "15/KM",
+    duration: "5 Days / 4 Nights",
+    rating: 4.7,
+    reviews: 312,
+    image:
+      "https://i.pinimg.com/736x/c6/8c/93/c68c93824a95b83b4dbe91427aac8d1a.jpg",
+    includes: ["Flight", "Hotel", "City Tour", "Seine Cruise"],
+  },
+  {
+    id: 4,
+    title: "Luxury Tempo Traveller",
+    destination: "16 Seater",
+    price: "20/KM",
+    duration: "8 Days / 7 Nights",
+    rating: 4.9,
+    reviews: 278,
+    image:
+      "https://i.pinimg.com/736x/30/1d/4a/301d4abe73a0f1696cb52aca1f9d971d.jpg",
+    includes: ["Flight", "Hotel", "JR Pass", "Guided Tours"],
+  },
+  // {
+  //   id: 5,
+  //   title: "Greek Island Escape",
+  //   destination: "Santorini",
+  //   price: "$2,199",
+  //   duration: "6 Days / 5 Nights",
+  //   rating: 4.8,
+  //   reviews: 201,
+  //   image: "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzYW50b3JpbmklMjBncmVlY2V8ZW58MXx8fHwxNzY4MzgxNDc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+  //   includes: ["Flight", "Hotel", "Breakfast", "Island Tour"]
+  // },
+  // {
+  //   id: 6,
+  //   title: "Dubai Luxury",
+  //   destination: "Dubai",
+  //   price: "$2,899",
+  //   duration: "7 Days / 6 Nights",
+  //   rating: 4.9,
+  //   reviews: 167,
+  //   image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkdWJhaSUyMHNreWxpbmV8ZW58MXx8fHwxNzY4MzIwNjAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+  //   includes: ["Flight", "5-Star Hotel", "Desert Safari", "City Tour"]
+  // }
+];
+
+export const testimonials = [
+  {
+    id: 1,
+    name: "Sunil sharma",
+    location: "Gorakhpur, India",
+    rating: 5,
+    text: "Amazing experience! The trip to Banaras was perfectly organized. Every detail was taken care of, and the service was exceptional.",
+    image:
+      "https://images.unsplash.com/flagged/photo-1571367034861-e6729ad9c2d5?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    id: 2,
+    name: "Dillip Kumar",
+    location: "Lucknow, India",
+    rating: 5,
+    text: "Best travel agency I've ever worked with. The Nepal package exceeded all expectations. Highly recommend!",
+    image:
+      "https://images.unsplash.com/photo-1744535814650-adcc647fd2b7?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    id: 3,
+    name: "Rima Singh",
+    location: "Gorakhpur, India",
+    rating: 5,
+    text: "Unforgettable memories in. The itinerary was perfect, and the accommodations were stunning. Will definitely book again!",
+    image:
+      "https://images.unsplash.com/photo-1663560453720-42a09eb92b8e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+];
+
+export const features = [
+  {
+    icon: "Globe",
+    title: "Worldwide Coverage",
+    description: "Access to 150+ destinations across 6 continents",
+  },
+  {
+    icon: "Shield",
+    title: "Secure Booking",
+    description: "100% secure payment with travel insurance included",
+  },
+  {
+    icon: "Clock",
+    title: "24/7 Support",
+    description: "Round-the-clock customer support for your peace of mind",
+  },
+  {
+    icon: "DollarSign",
+    title: "Best Prices",
+    description: "Competitive pricing with price match guarantee",
+  },
+];
