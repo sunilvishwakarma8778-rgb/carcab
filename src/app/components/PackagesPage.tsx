@@ -138,14 +138,14 @@ export function PackagesPage() {
                       </div>
                     </div> */}
 
-                    {/* Price and CTA */}
+                    Price and CTA
                     <div className="flex items-center justify-between pt-4 border-t border-gray-100">
-                      <div>
+                      {/* <div>
                         <p className="text-sm text-gray-500">Starting from</p>
                         <p className="text-3xl font-bold text-sky-600">
                           {pkg.price}
                         </p>
-                      </div>
+                      </div> */}
                       <motion.a
                         href="tel:+917084183421"
                         whileHover={{ scale: 1.05 }}
