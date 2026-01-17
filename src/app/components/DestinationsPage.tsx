@@ -184,7 +184,7 @@ export function DestinationsPage() {
                     />
                     
                     {/* Overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    {/* <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <div className="absolute bottom-0 left-0 right-0 p-6">
                         <p className="text-white text-sm mb-4">{destination.description}</p>
                         <motion.button
@@ -195,7 +195,7 @@ export function DestinationsPage() {
                           View Details
                         </motion.button>
                       </div>
-                    </div>
+                    </div> */}
 
                     {/* Budget Badge */}
                     <div className="absolute top-4 right-4">
@@ -221,14 +221,14 @@ export function DestinationsPage() {
                     </div>
                     
                     <div className="flex justify-between items-center pt-4 border-t border-gray-100">
-                      <div>
+                      {/* <div>
                         <p className="text-sm text-gray-500">Starting from</p>
                         <p className="text-2xl font-bold text-sky-600">{destination.price}</p>
-                      </div>
-                      <div className="text-right">
+                      </div> */}
+                      {/* <div className="text-right">
                         <p className="text-sm text-gray-500">Duration</p>
                         <p className="font-semibold text-gray-900">{destination.duration}</p>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </motion.div>

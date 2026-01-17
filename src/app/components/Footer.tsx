@@ -23,7 +23,11 @@ export function Footer() {
   const socialLinks = [
     { icon: Facebook, href: "#", label: "Facebook" },
     { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Instagram, href: "#", label: "Instagram" },
+     {
+    icon: Instagram,
+    href: "https://www.instagram.com/ajaysingh.650525?igsh=MW53OGgzc2c3ZWRwbw==",
+    label: "Instagram",
+  },
     { icon: Youtube, href: "#", label: "Youtube" },
   ];
 
@@ -91,10 +95,10 @@ export function Footer() {
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-sky-400 flex-shrink-0" />
                 <a
-                  href="tel:+917084183421"
+                  href="tel:+918810990496"
                   className="hover:text-sky-400 transition"
                 >
-                  +91 7084183421
+                  +91 8810990496
                 </a>
               </li>
 

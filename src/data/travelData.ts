@@ -9,43 +9,55 @@ export const destinations = [
     duration: "7 Days",
     image:
       "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    country: "Maldives",
+    country: "Kathmandu",
+    budget: "luxury",
+    description: "Paradise on Earth with crystal clear waters",
+  },
+   {
+    id: 1,
+    name: "Pokhara",
+    location: "Nepal",
+    price: "7000",
+    duration: "7 Days",
+    image:
+      "https://i.pinimg.com/1200x/81/12/cb/8112cb67fa462147eb5c582663f55731.jpg",
+    country: "pokhara",
     budget: "luxury",
     description: "Paradise on Earth with crystal clear waters",
   },
   {
     id: 2,
     name: "Banaras",
-    location: "India",
+    location: "Uttar Pradesh",
     price: "3,199",
     duration: "10 Days",
     image:
       "https://plus.unsplash.com/premium_photo-1697729634472-bb82561ef296?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    country: "India",
+    country: "Banaras",
     budget: "luxury",
     description: "Breathtaking mountain landscapes",
   },
   {
     id: 3,
-    name: "Lucknow",
-    location: "India",
+    name: "Ayodhya",
+    location: "Uttar Pradesh",
     price: "1,899",
     duration: "5 Days",
     image:
-      "https://plus.unsplash.com/premium_photo-1697730430283-7e4456c78375?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    country: "India",
+      "https://plus.unsplash.com/premium_photo-1697730334768-6e65fa8fded0?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    country: "Ayodhya",
     budget: "medium",
     description: "The City of Love and Lights",
   },
   {
     id: 4,
-    name: "Ayodhya",
-    location: "India",
+    name: "Prem Mandir",
+    location: "Uttar Pradesh",
     price: "2,699",
     duration: "8 Days",
     image:
-      "https://plus.unsplash.com/premium_photo-1697730334768-6e65fa8fded0?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    country: "Uttar Pradesh,India",
+      "https://i.pinimg.com/736x/ed/e9/a4/ede9a46da88886b9a98b13f076343e35.jpg",
+    country: "Prem Mandir",
     budget: "medium",
     description: "Modern meets traditional in Japan's capital",
   },
@@ -57,7 +69,7 @@ export const destinations = [
     duration: "6 Days",
     image:
       "https://images.unsplash.com/photo-1580741186862-c5d0bf2aff33?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    country: "India",
+    country: "Goa",
     budget: "medium",
     description: "Iconic white-washed buildings and sunsets",
   },
@@ -69,19 +81,19 @@ export const destinations = [
     duration: "7 Days",
     image:
       "https://images.unsplash.com/photo-1612438214708-f428a707dd4e?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    country: "Uttarakhand, India",
+    country: "Kedarnath",
     budget: "luxury",
     description: "Luxury and innovation in the desert",
   },
   {
     id: 7,
     name: "Kushinagar",
-    location: "India",
+    location: "Uttar Pradesh",
     price: "1,599",
     duration: "9 Days",
     image:
       "https://images.unsplash.com/photo-1691940175842-84a788886e7f?q=80&w=868&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    country: "Uttar Pradesh,India",
+    country: "Kushinagar",
     budget: "budget",
     description: "Tropical paradise with rich culture",
   },
@@ -93,10 +105,11 @@ export const destinations = [
     duration: "7 Days",
     image:
       "https://images.unsplash.com/photo-1712388430474-ace0c16051e2?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    country: "Himachal Pradesh, India",
+    country: "Manali",
     budget: "luxury",
     description: "Land of fire, ice, and northern lights",
   },
+  
 ];
 
 export const packages = [
@@ -109,7 +122,7 @@ export const packages = [
     rating: 4.9,
     reviews: 245,
     image:
-      "https://images.unsplash.com/photo-1748215210939-ad8b6c8c086d?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://i.pinimg.com/1200x/3a/1f/cb/3a1fcb1a65e2d38a9a34fbb76cec1e39.jpg",
     includes: ["Flight", "Hotel", "Meals", "Activities"],
   },
   {
@@ -148,28 +161,28 @@ export const packages = [
       "https://i.pinimg.com/736x/30/1d/4a/301d4abe73a0f1696cb52aca1f9d971d.jpg",
     includes: ["Flight", "Hotel", "JR Pass", "Guided Tours"],
   },
-  // {
-  //   id: 5,
-  //   title: "Greek Island Escape",
-  //   destination: "Santorini",
-  //   price: "$2,199",
-  //   duration: "6 Days / 5 Nights",
-  //   rating: 4.8,
-  //   reviews: 201,
-  //   image: "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzYW50b3JpbmklMjBncmVlY2V8ZW58MXx8fHwxNzY4MzgxNDc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-  //   includes: ["Flight", "Hotel", "Breakfast", "Island Tour"]
-  // },
-  // {
-  //   id: 6,
-  //   title: "Dubai Luxury",
-  //   destination: "Dubai",
-  //   price: "$2,899",
-  //   duration: "7 Days / 6 Nights",
-  //   rating: 4.9,
-  //   reviews: 167,
-  //   image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkdWJhaSUyMHNreWxpbmV8ZW58MXx8fHwxNzY4MzIwNjAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-  //   includes: ["Flight", "5-Star Hotel", "Desert Safari", "City Tour"]
-  // }
+  {
+    id: 5,
+    title: "Maruti Suzuki Dzire",
+    destination: "5 Seater",
+    price: "$2,199",
+    duration: "6 Days / 5 Nights",
+    rating: 4.8,
+    reviews: 201,
+    image: "https://i.pinimg.com/1200x/8b/25/a7/8b25a77242dbbf5ecf25c06ed9747c90.jpg",
+    includes: ["Flight", "Hotel", "Breakfast", "Island Tour"]
+  },
+  {
+    id: 6,
+    title: "Kia Carens",
+    destination: "7 Seater",
+    price: "$2,899",
+    duration: "7 Days / 6 Nights",
+    rating: 4.9,
+    reviews: 167,
+    image: "https://i.pinimg.com/736x/c6/06/6a/c6066a85f5e861f7ff8e2838588cb125.jpg",
+    includes: ["Flight", "5-Star Hotel", "Desert Safari", "City Tour"]
+  }
 ];
 
 export const testimonials = [
