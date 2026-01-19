@@ -1,16 +1,29 @@
-import { useRef } from 'react';
-import { motion, useInView } from 'motion/react';
-import { Link } from 'react-router-dom';
-import { ArrowRight, Globe, Shield, Clock, DollarSign, Star } from 'lucide-react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import { destinations, testimonials } from '@/data/travelData';
-import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
+import { useRef } from "react";
+import { motion, useInView } from "motion/react";
+import { Link } from "react-router-dom";
+import {
+  ArrowRight,
+  Globe,
+  Shield,
+  Clock,
+  DollarSign,
+  Star,
+} from "lucide-react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { destinations, testimonials } from "@/data/travelData";
+import { ImageWithFallback } from "@/app/components/figma/ImageWithFallback";
 
-const FadeInWhenVisible = ({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) => {
+const FadeInWhenVisible = ({
+  children,
+  delay = 0,
+}: {
+  children: React.ReactNode;
+  delay?: number;
+}) => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: '-100px' });
+  const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
     <motion.div
@@ -28,24 +41,24 @@ export function HomePage() {
   const features = [
     {
       icon: Globe,
-      title: 'Worldwide Coverage',
-      description: 'Access to 150+ destinations across 6 continents'
+      title: "Worldwide Coverage",
+      description: "Access to 150+ destinations across 6 continents",
     },
     {
       icon: Shield,
-      title: 'Secure Booking',
-      description: '100% secure payment with travel insurance included'
+      title: "Secure Booking",
+      description: "100% secure payment with travel insurance included",
     },
     {
       icon: Clock,
-      title: '24/7 Support',
-      description: 'Round-the-clock customer support for your peace of mind'
+      title: "24/7 Support",
+      description: "Round-the-clock customer support for your peace of mind",
     },
     {
       icon: DollarSign,
-      title: 'Best Prices',
-      description: 'Competitive pricing with price match guarantee'
-    }
+      title: "Best Prices",
+      description: "Competitive pricing with price match guarantee",
+    },
   ];
 
   const sliderSettings = {
@@ -56,7 +69,7 @@ export function HomePage() {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 5000,
-    arrows: false
+    arrows: false,
   };
 
   return (
@@ -77,23 +90,57 @@ export function HomePage() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-5xl md:text-7xl font-bold mb-6"
+            className="text-4xl md:text-6xl font-bold mb-5 leading-tight"
           >
-            Explore the World With Us
+            Car Cab Booking in Gorakhpur
           </motion.h1>
+
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto"
+            className="text-lg md:text-2xl mb-4 max-w-2xl mx-auto text-white/90"
           >
-            Discover breathtaking destinations and create unforgettable memories
+            Local & Outstation Taxi Service • 24/7 Available • Safe & Affordable
+            Rides
           </motion.p>
-          <motion.div
+
+          {/* ✅ SEO Boost Lines */}
+          <motion.p
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.3 }}
+            className="text-base md:text-lg mt-2 text-white/90 max-w-3xl mx-auto"
+          >
+            Gorakhpur to Nepal Cab Service • Gorakhpur to Pokhara Cab •
+            Gorakhpur to Banaras Cab
+          </motion.p>
+
+          <motion.p
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center"
+            className="text-sm md:text-base mt-2 text-white/80 max-w-3xl mx-auto"
+          >
+            Airport & Railway Pickup-Drop • One Way & Round Trip • Clean Cars •
+            Professional Drivers
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            className="text-sm md:text-base mt-2 text-white/80 max-w-3xl mx-auto"
+          >
+            Local Taxi in Gorakhpur • Outstation Cab • Airport & Railway
+            Pickup-Drop • 24/7 Available
+          </motion.p>
+
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.5 }}
+            className="flex flex-col sm:flex-row gap-4 justify-center mt-8"
           >
             <Link to="/packages">
               <motion.button
@@ -105,6 +152,7 @@ export function HomePage() {
                 <ArrowRight className="w-5 h-5" />
               </motion.button>
             </Link>
+
             <Link to="/destinations">
               <motion.button
                 whileHover={{ scale: 1.05 }}
@@ -134,14 +182,39 @@ export function HomePage() {
         </motion.div>
       </section>
 
+      {/* ✅ BONUS SEO TEXT BLOCK (Added after Hero) */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
+            Car Cab Booking in Gorakhpur (24/7 Service)
+          </h2>
+
+          <p className="text-gray-700 mt-3 leading-relaxed max-w-4xl">
+            We provide affordable and reliable cab booking services in Gorakhpur
+            for local rides, outstation trips, and airport or railway station
+            pickup-drop. Our professional drivers and clean cars ensure a
+            comfortable travel experience.
+          </p>
+
+          <p className="text-gray-700 mt-2 leading-relaxed max-w-4xl">
+            Book your cab from Gorakhpur to Nepal, Gorakhpur to Pokhara,
+            Gorakhpur to Banaras and nearby routes with flexible pickup options
+            and on-time service.
+          </p>
+        </div>
+      </section>
+
       {/* Popular Destinations */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <FadeInWhenVisible>
             <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold text-gray-900 mb-4">Popular Destinations</h2>
+              <h2 className="text-4xl font-bold text-gray-900 mb-4">
+                Popular Destinations
+              </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                Explore our handpicked destinations that offer the best experiences
+                Explore our handpicked destinations that offer the best
+                experiences
               </p>
             </div>
           </FadeInWhenVisible>
@@ -173,8 +246,12 @@ export function HomePage() {
                     </motion.div>
                   </div>
                   <div className="p-6">
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">{destination.name}</h3>
-                    <p className="text-gray-600 text-sm mb-4">{destination.location}</p>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">
+                      {destination.name}
+                    </h3>
+                    <p className="text-gray-600 text-sm mb-4">
+                      {destination.location}
+                    </p>
                     <div className="flex justify-between items-center">
                       {/* <span className="text-2xl font-bold text-sky-600">{destination.price}</span>
                       <span className="text-gray-500">{destination.duration}</span> */}
@@ -192,7 +269,9 @@ export function HomePage() {
         <div className="container mx-auto px-4">
           <FadeInWhenVisible>
             <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Choose Us</h2>
+              <h2 className="text-4xl font-bold text-gray-900 mb-4">
+                Why Choose Us
+              </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
                 We provide exceptional service and unforgettable experiences
               </p>
@@ -213,7 +292,9 @@ export function HomePage() {
                   >
                     <feature.icon className="w-8 h-8 text-white" />
                   </motion.div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">{feature.title}</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">
+                    {feature.title}
+                  </h3>
                   <p className="text-gray-600">{feature.description}</p>
                 </motion.div>
               </FadeInWhenVisible>
@@ -227,7 +308,9 @@ export function HomePage() {
         <div className="container mx-auto px-4">
           <FadeInWhenVisible>
             <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold mb-4">What Our Travelers Say</h2>
+              <h2 className="text-4xl font-bold mb-4">
+                What Our Travelers Say
+              </h2>
               <p className="text-sky-100 max-w-2xl mx-auto">
                 Real experiences from real travelers
               </p>
@@ -241,7 +324,10 @@ export function HomePage() {
                   <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center">
                     <div className="flex justify-center mb-4">
                       {[...Array(testimonial.rating)].map((_, i) => (
-                        <Star key={i} className="w-6 h-6 fill-yellow-400 text-yellow-400" />
+                        <Star
+                          key={i}
+                          className="w-6 h-6 fill-yellow-400 text-yellow-400"
+                        />
                       ))}
                     </div>
                     <p className="text-lg mb-6 italic">"{testimonial.text}"</p>
@@ -253,7 +339,9 @@ export function HomePage() {
                       />
                       <div className="text-left">
                         <h4 className="font-bold">{testimonial.name}</h4>
-                        <p className="text-sky-100 text-sm">{testimonial.location}</p>
+                        <p className="text-sky-100 text-sm">
+                          {testimonial.location}
+                        </p>
                       </div>
                     </div>
                   </div>
