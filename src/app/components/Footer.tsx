@@ -23,11 +23,11 @@ export function Footer() {
   const socialLinks = [
     { icon: Facebook, href: "#", label: "Facebook" },
     { icon: Twitter, href: "#", label: "Twitter" },
-     {
-    icon: Instagram,
-    href: "https://www.instagram.com/ajaysingh.650525?igsh=MW53OGgzc2c3ZWRwbw==",
-    label: "Instagram",
-  },
+    {
+      icon: Instagram,
+      href: "https://www.instagram.com/ajaysingh.650525?igsh=MW53OGgzc2c3ZWRwbw==",
+      label: "Instagram",
+    },
     { icon: Youtube, href: "#", label: "Youtube" },
   ];
 
@@ -138,7 +138,18 @@ export function Footer() {
 
         {/* Copyright */}
         <div className="border-t border-gray-700 pt-8 text-center text-sm">
-          <p>© {new Date().getFullYear()} TravelWise. All rights reserved.</p>
+          <p>
+            © {new Date().getFullYear()} TravelWise. All rights reserved. <br />
+            Powered by{" "}
+            <a
+              href="https://www.techssetu.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-400 hover:underline"
+            >
+              TechsSetu
+            </a>
+          </p>
         </div>
       </div>
     </footer>
