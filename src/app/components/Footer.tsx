@@ -10,6 +10,8 @@ import {
   Youtube,
 } from "lucide-react";
 
+const googleMapsUrl = "https://maps.app.goo.gl/Dne8KhEc8ojc6vQA6";
+
 export function Footer() {
   const quickLinks = [
     { name: "Home", path: "/" },
@@ -88,7 +90,14 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-sky-400 flex-shrink-0 mt-0.5" />
-                <span>Gorakhpur, Uttar Pradesh, India</span>
+                <a
+                  href={googleMapsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-sky-400 transition"
+                >
+                  Gorakhpur, Uttar Pradesh, India
+                </a>
               </li>
 
               {/* Phone */}

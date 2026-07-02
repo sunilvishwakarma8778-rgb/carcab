@@ -25,6 +25,8 @@ const FadeInWhenVisible = ({
   );
 };
 
+const googleMapsUrl = "https://maps.app.goo.gl/Dne8KhEc8ojc6vQA6";
+
 export function ContactPage() {
   const [formData, setFormData] = useState({
     name: "",
@@ -326,6 +328,15 @@ export function ContactPage() {
                     title="Gorakhpur Location"
                   />
                 </div>
+                <a
+                  href={googleMapsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mb-6 inline-flex items-center gap-2 rounded-full bg-sky-600 px-5 py-2.5 font-semibold text-white transition hover:bg-sky-700"
+                >
+                  <MapPin className="h-4 w-4" />
+                  Open Car Cab Booking on Google Maps
+                </a>
 
                 {/* Office Hours */}
                 <div className="bg-gradient-to-br from-sky-50 to-blue-50 rounded-2xl p-6">
