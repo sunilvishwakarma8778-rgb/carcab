@@ -46,7 +46,7 @@ export function DestinationsPage() {
         <div className="absolute inset-0 z-0">
           <ImageWithFallback
             src="https://images.unsplash.com/photo-1713959989861-2425c95e9777?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb3VudGFpbiUyMGxhbmRzY2FwZSUyMHRyYXZlbHxlbnwxfHx8fDE3NjgzOTMxNDB8MA&ixlib=rb-4.1.0&q=80&w=1080"
-            alt="Destinations Hero"
+            alt="Outstation cab destinations from Gorakhpur"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/50" />
@@ -58,7 +58,7 @@ export function DestinationsPage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-5xl md:text-6xl font-bold mb-4"
           >
-            Discover Destinations
+            Cab Destinations from Gorakhpur
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
@@ -66,7 +66,7 @@ export function DestinationsPage() {
             transition={{ delay: 0.2 }}
             className="text-xl"
           >
-            Find your perfect getaway from our curated collection
+            Book taxi routes for Nepal, Pokhara, Banaras, Ayodhya, Kushinagar and more
           </motion.p>
         </div>
       </section>
@@ -80,7 +80,7 @@ export function DestinationsPage() {
               <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
               <input
                 type="text"
-                placeholder="Search destinations..."
+                placeholder="Search cab routes..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 className="w-full pl-12 pr-4 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-sky-600"
@@ -165,7 +165,7 @@ export function DestinationsPage() {
         <div className="container mx-auto px-4">
           <div className="mb-8">
             <p className="text-gray-600">
-              Showing <span className="font-semibold">{filteredDestinations.length}</span> destinations
+              Showing <span className="font-semibold">{filteredDestinations.length}</span> cab destinations
             </p>
           </div>
 
@@ -238,7 +238,7 @@ export function DestinationsPage() {
 
           {filteredDestinations.length === 0 && (
             <div className="text-center py-20">
-              <p className="text-gray-500 text-lg">No destinations found matching your criteria.</p>
+              <p className="text-gray-500 text-lg">No cab destinations found matching your criteria.</p>
               <button
                 onClick={() => {
                   setSearchTerm('');

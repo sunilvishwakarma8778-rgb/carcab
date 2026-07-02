@@ -41,23 +41,23 @@ export function HomePage() {
   const features = [
     {
       icon: Globe,
-      title: "Worldwide Coverage",
-      description: "Access to 150+ destinations across 6 continents",
+      title: "Gorakhpur Route Coverage",
+      description: "Local, airport, railway and outstation cab service from Gorakhpur",
     },
     {
       icon: Shield,
-      title: "Secure Booking",
-      description: "100% secure payment with travel insurance included",
+      title: "Safe Cab Booking",
+      description: "Clean cars, verified drivers and reliable pickup for every trip",
     },
     {
       icon: Clock,
       title: "24/7 Support",
-      description: "Round-the-clock customer support for your peace of mind",
+      description: "Day and night cab availability for urgent and planned travel",
     },
     {
       icon: DollarSign,
-      title: "Best Prices",
-      description: "Competitive pricing with price match guarantee",
+      title: "Affordable Taxi Fare",
+      description: "Clear pricing for local rides, one-way trips and round trips",
     },
   ];
 
@@ -79,7 +79,7 @@ export function HomePage() {
         <div className="absolute inset-0 z-0">
           <ImageWithFallback
             src="https://images.unsplash.com/photo-1694786001018-b43efc0a7983?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cm9waWNhbCUyMGJlYWNoJTIwdmFjYXRpb258ZW58MXx8fHwxNzY4MzYwMTA1fDA&ixlib=rb-4.1.0&q=80&w=1080"
-            alt="Hero Background"
+            alt="Car cab booking and outstation taxi service in Gorakhpur"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-black/40" />
@@ -101,7 +101,7 @@ export function HomePage() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-lg md:text-2xl mb-4 max-w-2xl mx-auto text-white/90"
           >
-            Local & Outstation Taxi Service • 24/7 Available • Safe & Affordable
+            Local & Outstation Taxi Service | 24/7 Available | Safe & Affordable
             Rides
           </motion.p>
 
@@ -112,7 +112,7 @@ export function HomePage() {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="text-base md:text-lg mt-2 text-white/90 max-w-3xl mx-auto"
           >
-            Gorakhpur to Nepal Cab Service • Gorakhpur to Pokhara Cab •
+            Gorakhpur to Nepal Cab Service | Gorakhpur to Pokhara Cab |
             Gorakhpur to Banaras Cab
           </motion.p>
 
@@ -122,7 +122,7 @@ export function HomePage() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-sm md:text-base mt-2 text-white/80 max-w-3xl mx-auto"
           >
-            Airport & Railway Pickup-Drop • One Way & Round Trip • Clean Cars •
+            Airport & Railway Pickup-Drop | One Way & Round Trip | Clean Cars |
             Professional Drivers
           </motion.p>
 
@@ -132,8 +132,8 @@ export function HomePage() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-sm md:text-base mt-2 text-white/80 max-w-3xl mx-auto"
           >
-            Local Taxi in Gorakhpur • Outstation Cab • Airport & Railway
-            Pickup-Drop • 24/7 Available
+            Local Taxi in Gorakhpur | Outstation Cab | Airport & Railway
+            Pickup-Drop | 24/7 Available
           </motion.p>
 
           <motion.div
@@ -213,8 +213,8 @@ export function HomePage() {
                 Popular Destinations
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                Explore our handpicked destinations that offer the best
-                experiences
+                Book cab routes from Gorakhpur to Nepal, Pokhara, Banaras,
+                Ayodhya, Kushinagar and more
               </p>
             </div>
           </FadeInWhenVisible>
@@ -273,7 +273,8 @@ export function HomePage() {
                 Why Choose Us
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                We provide exceptional service and unforgettable experiences
+                Trusted cab booking in Gorakhpur for local rides, tours and
+                outstation travel
               </p>
             </div>
           </FadeInWhenVisible>

@@ -44,8 +44,8 @@ export function Footer() {
               </span>
             </div>
             <p className="text-sm mb-4">
-              Your trusted partner for unforgettable travel experiences around
-              the India. Creating memories that last a lifetime.
+              Reliable cab booking, taxi service and car rental in Gorakhpur
+              for local rides, tours and outstation travel.
             </p>
             <div className="flex gap-3">
               {socialLinks.map((social) => (
@@ -118,10 +118,11 @@ export function Footer() {
           {/* Newsletter */}
           <div>
             <h3 className="text-white text-lg font-semibold mb-4">
-              Newsletter
+              Cab Booking
             </h3>
             <p className="text-sm mb-4">
-              Subscribe to get special offers and travel updates!
+              Call us for Gorakhpur local taxi, airport pickup, railway pickup
+              and outstation cab service.
             </p>
             <div className="flex gap-2">
               <input
@@ -130,7 +131,7 @@ export function Footer() {
                 className="flex-1 px-4 py-2 rounded-lg bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-sky-600"
               />
               <button className="px-4 py-2 bg-gradient-to-r from-sky-600 to-blue-600 text-white rounded-lg hover:shadow-lg transition-shadow">
-                Subscribe
+                Send
               </button>
             </div>
           </div>
@@ -139,7 +140,7 @@ export function Footer() {
         {/* Copyright */}
         <div className="border-t border-gray-700 pt-8 text-center text-sm">
           <p>
-            © {new Date().getFullYear()} TravelWise. All rights reserved. <br />
+            © {new Date().getFullYear()} Car Cab Booking. All rights reserved. <br />
             Powered by{" "}
             <a
               href="https://www.techssetu.com"

@@ -34,7 +34,7 @@ export function PackagesPage() {
         <div className="absolute inset-0 z-0">
           <ImageWithFallback
             src="https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzYW50b3JpbmklMjBncmVlY2V8ZW58MXx8fHwxNzY4MzgxNDc4fDA&ixlib=rb-4.1.0&q=80&w=1080"
-            alt="Packages Hero"
+            alt="Cab booking packages and car rental in Gorakhpur"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/50" />
@@ -46,7 +46,7 @@ export function PackagesPage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-5xl md:text-6xl font-bold mb-4"
           >
-            Travel Packages
+            Cab Booking Packages
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
@@ -54,7 +54,7 @@ export function PackagesPage() {
             transition={{ delay: 0.2 }}
             className="text-xl"
           >
-            All-inclusive packages tailored for unforgettable experiences
+            Local taxi, outstation cab and car rental options from Gorakhpur
           </motion.p>
         </div>
       </section>
@@ -65,11 +65,11 @@ export function PackagesPage() {
           <FadeInWhenVisible>
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold text-gray-900 mb-4">
-                Featured Packages
+                Featured Cars for Booking
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                Carefully curated packages that include everything you need for
-                the perfect vacation
+                Choose cars for local travel, tours, airport pickup, railway
+                pickup and outstation cab service
               </p>
             </div>
           </FadeInWhenVisible>
@@ -169,11 +169,11 @@ export function PackagesPage() {
           <FadeInWhenVisible>
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold text-gray-900 mb-4">
-                Why Book Our Packages?
+                Why Book Our Cabs?
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                We take care of every detail so you can focus on creating
-                memories
+                Reliable car cab booking in Gorakhpur with clean cars and
+                professional drivers
               </p>
             </div>
           </FadeInWhenVisible>
@@ -188,11 +188,11 @@ export function PackagesPage() {
                   <Check className="w-8 h-8 text-sky-600" />
                 </motion.div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">
-                  All-Inclusive
+                  Local and Outstation
                 </h3>
                 <p className="text-gray-600">
-                  Everything you need in one package - flights, hotels, meals,
-                  and activities
+                  One-way, round-trip, airport and railway station cab service
+                  from Gorakhpur
                 </p>
               </div>
             </FadeInWhenVisible>
@@ -206,10 +206,11 @@ export function PackagesPage() {
                   <Users className="w-8 h-8 text-sky-600" />
                 </motion.div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">
-                  Expert Guides
+                  Professional Drivers
                 </h3>
                 <p className="text-gray-600">
-                  Professional guides who know the best spots and hidden gems
+                  Experienced drivers for Gorakhpur local rides and long-distance
+                  tours
                 </p>
               </div>
             </FadeInWhenVisible>
@@ -223,11 +224,11 @@ export function PackagesPage() {
                   <Star className="w-8 h-8 text-sky-600" />
                 </motion.div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">
-                  Curated Experiences
+                  Comfortable Cars
                 </h3>
                 <p className="text-gray-600">
-                  Handpicked activities and destinations for unforgettable
-                  moments
+                  Sedan, SUV and traveller options for family tours and business
+                  trips
                 </p>
               </div>
             </FadeInWhenVisible>
@@ -240,17 +241,18 @@ export function PackagesPage() {
         <div className="container mx-auto px-4 text-center">
           <FadeInWhenVisible>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Ready for Your Next Adventure?
+              Ready to Book a Cab?
             </h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto text-sky-100">
-              Book now and save up to 20% on early bird bookings
+              Call now for Gorakhpur cab booking, car rental and outstation taxi
+              service
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="px-10 py-4 bg-white text-sky-600 rounded-full text-lg font-semibold hover:shadow-2xl transition-shadow"
             >
-              Browse All Packages
+              Call for Cab Booking
             </motion.button>
           </FadeInWhenVisible>
         </div>

@@ -92,7 +92,7 @@ export function ContactPage() {
         <div className="absolute inset-0 z-0">
           <ImageWithFallback
             src="https://images.unsplash.com/photo-1544644181-1484b3fdfc62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYWxpJTIwaW5kb25lc2lhfGVufDF8fHx8MTc2ODMxMjY3Mnww&ixlib=rb-4.1.0&q=80&w=1080"
-            alt="Contact Hero"
+            alt="Contact Car Cab Booking Gorakhpur"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/50" />
@@ -104,7 +104,7 @@ export function ContactPage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-5xl md:text-6xl font-bold mb-4"
           >
-            Get in Touch
+            Contact Car Cab Booking
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
@@ -112,7 +112,7 @@ export function ContactPage() {
             transition={{ delay: 0.2 }}
             className="text-xl"
           >
-            Let's plan your dream vacation together
+            Call or message us for cab booking in Gorakhpur
           </motion.p>
         </div>
       </section>
@@ -157,11 +157,11 @@ export function ContactPage() {
             <FadeInWhenVisible>
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-2">
-                  Book Your Trip
+                  Book Your Cab
                 </h2>
                 <p className="text-gray-600 mb-8">
-                  Fill out the form below and we'll get back to you within 24
-                  hours
+                  Fill out the form below and we will get back to you for your
+                  cab booking request
                 </p>
 
                 <form onSubmit={handleSubmit} className="space-y-6">
@@ -277,7 +277,7 @@ export function ContactPage() {
                       htmlFor="message"
                       className="block text-sm font-medium text-gray-700 mb-2"
                     >
-                      Special Requests
+                      Trip Details
                     </label>
                     <textarea
                       id="message"
@@ -286,7 +286,7 @@ export function ContactPage() {
                       value={formData.message}
                       onChange={handleChange}
                       className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-sky-600 resize-none"
-                      placeholder="Any special requirements or preferences?"
+                      placeholder="Pickup, drop, cab type or route details"
                     />
                   </div>
 
@@ -297,7 +297,7 @@ export function ContactPage() {
                     className="w-full px-6 py-4 bg-gradient-to-r from-sky-600 to-blue-600 text-white rounded-lg font-semibold hover:shadow-lg transition-shadow flex items-center justify-center gap-2"
                   >
                     <Send className="w-5 h-5" />
-                    Submit Booking Request
+                    Submit Cab Booking Request
                   </motion.button>
                 </form>
               </div>
@@ -307,10 +307,11 @@ export function ContactPage() {
             <FadeInWhenVisible delay={0.2}>
               <div className="lg:sticky lg:top-32">
                 <h2 className="text-3xl font-bold text-gray-900 mb-2">
-                  Visit Our Office
+                  Visit Our Gorakhpur Office
                 </h2>
                 <p className="text-gray-600 mb-6">
-                  Drop by our office for a personalized consultation
+                  Contact us for local taxi, car rental and outstation cab
+                  booking from Gorakhpur
                 </p>
 
                 {/* Map Placeholder */}
@@ -329,7 +330,7 @@ export function ContactPage() {
                 {/* Office Hours */}
                 <div className="bg-gradient-to-br from-sky-50 to-blue-50 rounded-2xl p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-4">
-                    Office Hours
+                    Cab Service Hours
                   </h3>
                   <div className="space-y-2 text-gray-600">
                     <div className="flex justify-between">

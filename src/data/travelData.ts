@@ -123,7 +123,7 @@ export const packages = [
     reviews: 245,
     image:
       "https://i.pinimg.com/1200x/3a/1f/cb/3a1fcb1a65e2d38a9a34fbb76cec1e39.jpg",
-    includes: ["Flight", "Hotel", "Meals", "Activities"],
+    includes: ["Driver", "Fuel", "Pickup", "Outstation"],
   },
   {
     id: 2,
@@ -135,7 +135,7 @@ export const packages = [
     reviews: 189,
     image:
       "https://i.pinimg.com/736x/89/32/c0/8932c0e6bacc17f73c4d64aa6aa4ff5b.jpg",
-    includes: ["Flight", "Hotel", "Breakfast", "Ski Pass"],
+    includes: ["Driver", "Pickup", "Local Ride", "Round Trip"],
   },
   {
     id: 3,
@@ -147,7 +147,7 @@ export const packages = [
     reviews: 312,
     image:
       "https://i.pinimg.com/736x/c6/8c/93/c68c93824a95b83b4dbe91427aac8d1a.jpg",
-    includes: ["Flight", "Hotel", "City Tour", "Seine Cruise"],
+    includes: ["Driver", "Airport Pickup", "Tours", "Outstation"],
   },
   {
     id: 4,
@@ -159,7 +159,7 @@ export const packages = [
     reviews: 278,
     image:
       "https://i.pinimg.com/736x/30/1d/4a/301d4abe73a0f1696cb52aca1f9d971d.jpg",
-    includes: ["Flight", "Hotel", "JR Pass", "Guided Tours"],
+    includes: ["Driver", "Group Travel", "Tours", "Outstation"],
   },
   {
     id: 5,
@@ -170,7 +170,7 @@ export const packages = [
     rating: 4.8,
     reviews: 201,
     image: "https://i.pinimg.com/1200x/8b/25/a7/8b25a77242dbbf5ecf25c06ed9747c90.jpg",
-    includes: ["Flight", "Hotel", "Breakfast", "Island Tour"]
+    includes: ["Driver", "Pickup", "Local Taxi", "One Way"]
   },
   {
     id: 6,
@@ -181,7 +181,7 @@ export const packages = [
     rating: 4.9,
     reviews: 167,
     image: "https://i.pinimg.com/736x/c6/06/6a/c6066a85f5e861f7ff8e2838588cb125.jpg",
-    includes: ["Flight", "5-Star Hotel", "Desert Safari", "City Tour"]
+    includes: ["Driver", "Pickup", "Family Cab", "Outstation"]
   }
 ];
 
@@ -218,22 +218,22 @@ export const testimonials = [
 export const features = [
   {
     icon: "Globe",
-    title: "Worldwide Coverage",
-    description: "Access to 150+ destinations across 6 continents",
+    title: "Gorakhpur Route Coverage",
+    description: "Local, airport, railway and outstation cab service from Gorakhpur",
   },
   {
     icon: "Shield",
-    title: "Secure Booking",
-    description: "100% secure payment with travel insurance included",
+    title: "Safe Cab Booking",
+    description: "Clean cars, verified drivers and reliable pickup for every trip",
   },
   {
     icon: "Clock",
     title: "24/7 Support",
-    description: "Round-the-clock customer support for your peace of mind",
+    description: "Day and night cab availability for urgent and planned travel",
   },
   {
     icon: "DollarSign",
-    title: "Best Prices",
-    description: "Competitive pricing with price match guarantee",
+    title: "Affordable Taxi Fare",
+    description: "Clear pricing for local rides, one-way trips and round trips",
   },
 ];
