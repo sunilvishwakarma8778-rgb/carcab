@@ -5,10 +5,12 @@ import { HomePage } from './components/HomePage';
 import { DestinationsPage } from './components/DestinationsPage';
 import { PackagesPage } from './components/PackagesPage';
 import { ContactPage } from './components/ContactPage';
+import { Seo } from './components/Seo';
 
 export default function App() {
   return (
     <Router>
+      <Seo />
       <div className="min-h-screen flex flex-col">
         <Header />
         <main className="flex-1">
