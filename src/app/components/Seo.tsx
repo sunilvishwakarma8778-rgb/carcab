@@ -2,6 +2,8 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 const siteUrl = "https://www.carcabbooking.com";
+const defaultImage = "https://www.carcabbooking.com/assets/ccb.png";
+const defaultImageAlt = "Car Cab Booking Gorakhpur logo";
 
 const seoByPath: Record<string, { title: string; description: string }> = {
   "/": {
@@ -44,6 +46,8 @@ export function Seo() {
   const location = useLocation();
 
   useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+
     const seo = seoByPath[location.pathname] ?? seoByPath["/"];
     const canonicalUrl = `${siteUrl}${location.pathname === "/" ? "/" : location.pathname}`;
 
@@ -80,6 +84,26 @@ export function Seo() {
     );
 
     upsertMeta(
+      'meta[property="og:image"]',
+      () => {
+        const meta = document.createElement("meta");
+        meta.setAttribute("property", "og:image");
+        return meta;
+      },
+      defaultImage
+    );
+
+    upsertMeta(
+      'meta[property="og:image:alt"]',
+      () => {
+        const meta = document.createElement("meta");
+        meta.setAttribute("property", "og:image:alt");
+        return meta;
+      },
+      defaultImageAlt
+    );
+
+    upsertMeta(
       'meta[property="og:url"]',
       () => {
         const meta = document.createElement("meta");
@@ -87,6 +111,36 @@ export function Seo() {
         return meta;
       },
       canonicalUrl
+    );
+
+    upsertMeta(
+      'meta[name="twitter:title"]',
+      () => {
+        const meta = document.createElement("meta");
+        meta.name = "twitter:title";
+        return meta;
+      },
+      seo.title
+    );
+
+    upsertMeta(
+      'meta[name="twitter:description"]',
+      () => {
+        const meta = document.createElement("meta");
+        meta.name = "twitter:description";
+        return meta;
+      },
+      seo.description
+    );
+
+    upsertMeta(
+      'meta[name="twitter:image"]',
+      () => {
+        const meta = document.createElement("meta");
+        meta.name = "twitter:image";
+        return meta;
+      },
+      defaultImage
     );
 
     let canonical = document.head.querySelector<HTMLLinkElement>('link[rel="canonical"]');
