@@ -2,6 +2,8 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 const siteUrl = "https://www.carcabbooking.com";
+const siteName = "Car Cab Booking";
+const defaultLocale = "en_IN";
 const defaultImage = "https://www.carcabbooking.com/assets/ccb.png";
 const defaultImageAlt = "Car Cab Booking Gorakhpur logo";
 
@@ -31,6 +33,24 @@ const seoByPath: Record<string, { title: string; description: string }> = {
   },
 };
 
+const breadcrumbByPath: Record<string, { name: string; item: string }[]> = {
+  "/": [
+    { name: "Home", item: siteUrl },
+  ],
+  "/destinations": [
+    { name: "Home", item: siteUrl },
+    { name: "Destinations", item: `${siteUrl}/destinations` },
+  ],
+  "/packages": [
+    { name: "Home", item: siteUrl },
+    { name: "Packages", item: `${siteUrl}/packages` },
+  ],
+  "/contact": [
+    { name: "Home", item: siteUrl },
+    { name: "Contact", item: `${siteUrl}/contact` },
+  ],
+};
+
 function upsertMeta(selector: string, create: () => HTMLMetaElement, value: string) {
   let meta = document.head.querySelector<HTMLMetaElement>(selector);
 
@@ -40,6 +60,19 @@ function upsertMeta(selector: string, create: () => HTMLMetaElement, value: stri
   }
 
   meta.content = value;
+}
+
+function upsertJsonLd(id: string, json: object) {
+  let script = document.head.querySelector<HTMLScriptElement>(`script#${id}`);
+
+  if (!script) {
+    script = document.createElement("script");
+    script.type = "application/ld+json";
+    script.id = id;
+    document.head.appendChild(script);
+  }
+
+  script.textContent = JSON.stringify(json);
 }
 
 export function Seo() {
@@ -114,6 +147,56 @@ export function Seo() {
     );
 
     upsertMeta(
+      'meta[property="og:type"]',
+      () => {
+        const meta = document.createElement("meta");
+        meta.setAttribute("property", "og:type");
+        return meta;
+      },
+      "website"
+    );
+
+    upsertMeta(
+      'meta[property="og:site_name"]',
+      () => {
+        const meta = document.createElement("meta");
+        meta.setAttribute("property", "og:site_name");
+        return meta;
+      },
+      siteName
+    );
+
+    upsertMeta(
+      'meta[property="og:locale"]',
+      () => {
+        const meta = document.createElement("meta");
+        meta.setAttribute("property", "og:locale");
+        return meta;
+      },
+      defaultLocale
+    );
+
+    upsertMeta(
+      'meta[name="twitter:card"]',
+      () => {
+        const meta = document.createElement("meta");
+        meta.name = "twitter:card";
+        return meta;
+      },
+      "summary_large_image"
+    );
+
+    upsertMeta(
+      'meta[name="twitter:image:alt"]',
+      () => {
+        const meta = document.createElement("meta");
+        meta.name = "twitter:image:alt";
+        return meta;
+      },
+      defaultImageAlt
+    );
+
+    upsertMeta(
       'meta[name="twitter:title"]',
       () => {
         const meta = document.createElement("meta");
@@ -152,6 +235,19 @@ export function Seo() {
     }
 
     canonical.href = canonicalUrl;
+
+    const breadcrumbList = breadcrumbByPath[location.pathname] ?? breadcrumbByPath["/"];
+
+    upsertJsonLd("breadcrumb-jsonld", {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: breadcrumbList.map((item, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: item.name,
+        item: item.item,
+      })),
+    });
   }, [location.pathname]);
 
   return null;
