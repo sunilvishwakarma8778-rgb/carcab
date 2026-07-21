@@ -10,7 +10,7 @@ const defaultImageAlt = "Car Cab Booking Gorakhpur logo";
 const seoByPath: Record<string, { title: string; description: string }> = {
   "/": {
     title:
-      "Car Cab Booking Gorakhpur | Taxi Service, Cab Booking & Car Rental 24/7",
+      "Car Cab Booking Gorakhpur | Taxi & Cab Service 24/7",
     description:
       "Book 24/7 taxi service, cab booking and car rental in Gorakhpur for local rides, airport pickup, railway pickup, sightseeing and outstation trips.",
   },
@@ -25,6 +25,11 @@ const seoByPath: Record<string, { title: string; description: string }> = {
       "Cab Booking Packages Gorakhpur | Sedan, SUV, Innova & Traveller Rental",
     description:
       "Choose affordable cab booking packages in Gorakhpur with sedan, SUV, Innova, Ertiga, Scorpio and tempo traveller options for local and outstation travel.",
+  },
+  "/guides": {
+    title: "Gorakhpur Taxi Guide | Local, Airport & Outstation Cab Tips",
+    description:
+      "Read the Gorakhpur taxi guide for the best local cab routes, airport pickup tips, outstation booking advice and safe travel from Gorakhpur.",
   },
   "/contact": {
     title: "Contact Car Cab Booking Gorakhpur | Call for 24/7 Taxi Service",
@@ -44,6 +49,10 @@ const breadcrumbByPath: Record<string, { name: string; item: string }[]> = {
   "/packages": [
     { name: "Home", item: siteUrl },
     { name: "Packages", item: `${siteUrl}/packages` },
+  ],
+  "/guides": [
+    { name: "Home", item: siteUrl },
+    { name: "Guides", item: `${siteUrl}/guides` },
   ],
   "/contact": [
     { name: "Home", item: siteUrl },

@@ -59,6 +59,28 @@ export function PackagesPage() {
         </div>
       </section>
 
+      {/* Package SEO Content */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+              Transparent Cab Booking Packages in Gorakhpur
+            </h2>
+            <p className="text-gray-600 mt-4 leading-relaxed">
+              Select from sedan, SUV, Innova and traveller packages for local
+              taxi service, airport pickup and outstation travel. Our package
+              options are designed to support family trips, business travel and
+              group tours with clear charges and no hidden fees.
+            </p>
+            <p className="text-gray-600 mt-4 leading-relaxed">
+              Every package includes a verified driver, pickup from your chosen
+              location, route assistance and support for custom schedules. Book
+              the right car and route from Gorakhpur today.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Packages Grid */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
@@ -138,7 +160,6 @@ export function PackagesPage() {
                       </div>
                     </div> */}
 
-                    Price and CTA
                     <div className="flex items-center justify-between pt-4 border-t border-gray-100">
                       {/* <div>
                         <p className="text-sm text-gray-500">Starting from</p>

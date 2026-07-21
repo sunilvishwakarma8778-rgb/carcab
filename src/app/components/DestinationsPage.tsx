@@ -71,6 +71,29 @@ export function DestinationsPage() {
         </div>
       </section>
 
+      {/* Destination Intro for SEO */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+              Outstation Cab Routes from Gorakhpur
+            </h2>
+            <p className="text-gray-600 mt-4 leading-relaxed">
+              Book safe and comfortable cabs from Gorakhpur to Nepal, Pokhara,
+              Banaras, Ayodhya, Kushinagar, Lucknow and nearby destinations. Our
+              outstation taxi service includes airport transfers, railway station
+              pickups and family tours with experienced drivers and transparent
+              pricing.
+            </p>
+            <p className="text-gray-600 mt-4 leading-relaxed">
+              Choose one-way or round-trip packages for local travel, pilgrimage
+              journeys and long-distance routes. We provide clean cars, flexible
+              pickup options and 24/7 support for cab booking in Gorakhpur.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Search and Filters */}
       <section className="py-8 bg-white shadow-md sticky top-20 z-40">
         <div className="container mx-auto px-4">
@@ -157,6 +180,23 @@ export function DestinationsPage() {
               </select>
             </motion.div>
           )}
+        </div>
+      </section>
+
+      {/* Popular Routes and Travel Benefits */}
+      <section className="py-10 bg-white border-t border-b border-gray-200">
+        <div className="container mx-auto px-4">
+          <div className="max-w-5xl mx-auto text-center">
+            <h3 className="text-2xl font-semibold text-gray-900 mb-4">
+              Popular Cab Routes from Gorakhpur
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-left text-gray-600">
+              <p>Gorakhpur to Nepal cab service for secure cross-border travel.</p>
+              <p>Gorakhpur to Pokhara one-way and round-trip taxi bookings.</p>
+              <p>Gorakhpur to Banaras pilgrim and tourist cab packages.</p>
+              <p>Gorakhpur to Ayodhya, Kushinagar, Lucknow and Sonauli routes.</p>
+            </div>
+          </div>
         </div>
       </section>
 

@@ -356,6 +356,49 @@ export function ContactPage() {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              Frequently Asked Questions
+            </h2>
+            <div className="space-y-5 text-gray-700">
+              <div>
+                <h3 className="text-xl font-semibold text-gray-900">
+                  Can I book a cab from Gorakhpur for an outstation trip?
+                </h3>
+                <p className="mt-2 leading-relaxed">
+                  Yes, we provide outstation cab booking from Gorakhpur to
+                  destinations such as Nepal, Banaras, Ayodhya, Kushinagar,
+                  Lucknow and more with flexible one-way or round-trip options.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold text-gray-900">
+                  Do you offer airport and railway station pickup?
+                </h3>
+                <p className="mt-2 leading-relaxed">
+                  Absolutely. Our drivers can meet you at the airport or railway
+                  station and provide safe pickup and drop services across
+                  Gorakhpur and nearby areas.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold text-gray-900">
+                  How do I confirm the booking?
+                </h3>
+                <p className="mt-2 leading-relaxed">
+                  Fill out the booking form on this page or call us directly at
+                  +91 8810990496. We'll confirm your cab, route and pickup time
+                  as soon as possible.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Success Animation Modal */}
       <AnimatePresence>
         {isSubmitted && (

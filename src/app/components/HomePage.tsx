@@ -204,6 +204,27 @@ export function HomePage() {
         </div>
       </section>
 
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center rounded-3xl bg-white p-10 shadow-lg">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+              Gorakhpur Taxi Guide
+            </h2>
+            <p className="text-gray-600 mt-4 leading-relaxed">
+              Learn the best taxi routes, booking tips and local travel advice
+              for Gorakhpur. This guide is perfect for families, pilgrims and
+              outstation travelers.
+            </p>
+            <Link
+              to="/guides"
+              className="inline-flex items-center justify-center mt-8 rounded-full bg-sky-600 px-8 py-4 text-white font-semibold hover:bg-sky-700 transition"
+            >
+              Read the Guide
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Popular Destinations */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">

@@ -5,6 +5,7 @@ import { HomePage } from './components/HomePage';
 import { DestinationsPage } from './components/DestinationsPage';
 import { PackagesPage } from './components/PackagesPage';
 import { ContactPage } from './components/ContactPage';
+import { GuidesPage } from './components/GuidesPage';
 import { Seo } from './components/Seo';
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/destinations" element={<DestinationsPage />} />
             <Route path="/packages" element={<PackagesPage />} />
+            <Route path="/guides" element={<GuidesPage />} />
             <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </main>
