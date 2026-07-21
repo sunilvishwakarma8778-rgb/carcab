@@ -33,7 +33,7 @@ export function GuidesPage() {
       <section className="relative h-96 flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <ImageWithFallback
-            src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cmF2ZWwlMjBpbmRpYSUyMGNhYiUyMHBhdGh8ZW58MXx8fHwxNzY4Mzg2MzI3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+            src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?crop=entropy&cs=tinysrgb&fit=max&fm=webp&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cmF2ZWwlMjBpbmRpYSUyMGNhYiUyMHBhdGh8ZW58MXx8fHwxNzY4Mzg2MzI3fDA&ixlib=rb-4.1.0&q=80&w=900"
             alt="Gorakhpur taxi guide and travel tips"
             className="w-full h-full object-cover"
           />

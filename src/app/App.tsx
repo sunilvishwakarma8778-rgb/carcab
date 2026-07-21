@@ -6,6 +6,7 @@ import { DestinationsPage } from './components/DestinationsPage';
 import { PackagesPage } from './components/PackagesPage';
 import { ContactPage } from './components/ContactPage';
 import { GuidesPage } from './components/GuidesPage';
+import { NotFoundPage } from './components/NotFoundPage';
 import { Seo } from './components/Seo';
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
             <Route path="/packages" element={<PackagesPage />} />
             <Route path="/guides" element={<GuidesPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </main>
         <Footer />

@@ -8,7 +8,7 @@ export const destinations = [
     price: "7000",
     duration: "7 Days",
     image:
-      "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?q=80&w=687&auto=format&fit=crop&fm=webp&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     country: "Kathmandu",
     budget: "luxury",
     description: "Paradise on Earth with crystal clear waters",
@@ -32,7 +32,7 @@ export const destinations = [
     price: "3,199",
     duration: "10 Days",
     image:
-      "https://plus.unsplash.com/premium_photo-1697729634472-bb82561ef296?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1697729634472-bb82561ef296?q=80&w=687&auto=format&fit=crop&fm=webp&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     country: "Banaras",
     budget: "luxury",
     description: "Breathtaking mountain landscapes",
@@ -44,7 +44,7 @@ export const destinations = [
     price: "1,899",
     duration: "5 Days",
     image:
-      "https://plus.unsplash.com/premium_photo-1697730334768-6e65fa8fded0?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1697730334768-6e65fa8fded0?q=80&w=870&auto=format&fit=crop&fm=webp&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     country: "Ayodhya",
     budget: "medium",
     description: "The City of Love and Lights",
@@ -68,7 +68,7 @@ export const destinations = [
     price: "2,199",
     duration: "6 Days",
     image:
-      "https://images.unsplash.com/photo-1580741186862-c5d0bf2aff33?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1580741186862-c5d0bf2aff33?q=80&w=774&auto=format&fit=crop&fm=webp&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     country: "Goa",
     budget: "medium",
     description: "Iconic white-washed buildings and sunsets",
@@ -80,7 +80,7 @@ export const destinations = [
     price: "2,899",
     duration: "7 Days",
     image:
-      "https://images.unsplash.com/photo-1612438214708-f428a707dd4e?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1612438214708-f428a707dd4e?q=80&w=774&auto=format&fit=crop&fm=webp&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     country: "Kedarnath",
     budget: "luxury",
     description: "Luxury and innovation in the desert",
@@ -92,7 +92,7 @@ export const destinations = [
     price: "1,599",
     duration: "9 Days",
     image:
-      "https://images.unsplash.com/photo-1691940175842-84a788886e7f?q=80&w=868&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1691940175842-84a788886e7f?q=80&w=868&auto=format&fit=crop&fm=webp&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     country: "Kushinagar",
     budget: "budget",
     description: "Tropical paradise with rich culture",
@@ -104,7 +104,7 @@ export const destinations = [
     price: "2,999",
     duration: "7 Days",
     image:
-      "https://images.unsplash.com/photo-1712388430474-ace0c16051e2?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1712388430474-ace0c16051e2?q=80&w=774&auto=format&fit=crop&fm=webp&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     country: "Manali",
     budget: "luxury",
     description: "Land of fire, ice, and northern lights",
@@ -193,7 +193,7 @@ export const testimonials = [
     rating: 5,
     text: "Amazing experience! The trip to Banaras was perfectly organized. Every detail was taken care of, and the service was exceptional.",
     image:
-      "https://images.unsplash.com/flagged/photo-1571367034861-e6729ad9c2d5?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/flagged/photo-1571367034861-e6729ad9c2d5?q=80&w=764&auto=format&fit=crop&fm=webp&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: 2,
@@ -202,7 +202,7 @@ export const testimonials = [
     rating: 5,
     text: "Best travel agency I've ever worked with. The Nepal package exceeded all expectations. Highly recommend!",
     image:
-      "https://images.unsplash.com/photo-1744535814650-adcc647fd2b7?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1744535814650-adcc647fd2b7?q=80&w=687&auto=format&fit=crop&fm=webp&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: 3,
@@ -211,7 +211,7 @@ export const testimonials = [
     rating: 5,
     text: "Unforgettable memories in. The itinerary was perfect, and the accommodations were stunning. Will definitely book again!",
     image:
-      "https://images.unsplash.com/photo-1663560453720-42a09eb92b8e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1663560453720-42a09eb92b8e?q=80&w=687&auto=format&fit=crop&fm=webp&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
 

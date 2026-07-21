@@ -78,7 +78,7 @@ export function HomePage() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <ImageWithFallback
-            src="https://images.unsplash.com/photo-1694786001018-b43efc0a7983?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cm9waWNhbCUyMGJlYWNoJTIwdmFjYXRpb258ZW58MXx8fHwxNzY4MzYwMTA1fDA&ixlib=rb-4.1.0&q=80&w=1080"
+            src="https://images.unsplash.com/photo-1694786001018-b43efc0a7983?crop=entropy&cs=tinysrgb&fit=max&fm=webp&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cm9waWNhbCUyMGJlYWNoJTIwdmFjYXRpb258ZW58MXx8fHwxNzY4MzYwMTA1fDA&ixlib=rb-4.1.0&q=80&w=900"
             alt="Car cab booking and outstation taxi service in Gorakhpur"
             className="w-full h-full object-cover"
           />
@@ -183,24 +183,26 @@ export function HomePage() {
       </section>
 
       {/* ✅ BONUS SEO TEXT BLOCK (Added after Hero) */}
-      <section className="py-12 bg-white">
+      <section className="py-12 bg-slate-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
-            Car Cab Booking in Gorakhpur (24/7 Service)
-          </h2>
+          <div className="mx-auto max-w-3xl rounded-[2rem] bg-white p-10 shadow-xl ring-1 ring-slate-200 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900">
+              Car Cab Booking in Gorakhpur (24/7 Service)
+            </h2>
 
-          <p className="text-gray-700 mt-3 leading-relaxed max-w-4xl">
-            We provide affordable and reliable cab booking services in Gorakhpur
-            for local rides, outstation trips, and airport or railway station
-            pickup-drop. Our professional drivers and clean cars ensure a
-            comfortable travel experience.
-          </p>
+            <p className="text-slate-600 mt-5 leading-relaxed">
+              We offer affordable, reliable cab booking in Gorakhpur for local rides,
+              outstation journeys, and airport or railway station pickup and drop.
+              Our professional drivers, clean vehicles, and flexible scheduling
+              ensure a comfortable, stress-free travel experience every time.
+            </p>
 
-          <p className="text-gray-700 mt-2 leading-relaxed max-w-4xl">
-            Book your cab from Gorakhpur to Nepal, Gorakhpur to Pokhara,
-            Gorakhpur to Banaras and nearby routes with flexible pickup options
-            and on-time service.
-          </p>
+            <p className="text-slate-600 mt-6 leading-relaxed font-medium">
+              Book your cab from Gorakhpur to Nepal, Gorakhpur to Pokhara,
+              Gorakhpur to Banaras, or nearby routes with easy pickup options and
+              punctual service.
+            </p>
+          </div>
         </div>
       </section>
 
